@@ -1,0 +1,15 @@
+@media print {
+	body {
+		background-color: rgb(44, 44, 255);
+		color: white;
+	}
+	input {
+		display: none;
+	}
+	select {
+		display: none;
+	}
+	button {
+		display: none;
+	}
+}

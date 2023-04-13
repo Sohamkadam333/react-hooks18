@@ -1,0 +1,29 @@
+.palette-main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.paletteContainer {
+	margin: 10px;
+	/*border: 2px solid black;
+  */
+	display: flex;
+	width: 300px;
+	box-shadow: 0.2px 0.2px 2px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.palette-main-container .palette-info {
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+	align-items: start;
+}
+
+.palette-main-container .palette-info .paletteName {
+	font-size: 15px;
+}
