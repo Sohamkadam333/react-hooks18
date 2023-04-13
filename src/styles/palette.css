@@ -27,3 +27,13 @@
 .palette-main-container .palette-info .paletteName {
 	font-size: 15px;
 }
+
+@media screen and (max-width: 600px) {
+	body {
+		/* background-color: olive; */
+	}
+	.paletteContainer {
+		max-width: 90%;
+		width: 400px;
+	}
+}
