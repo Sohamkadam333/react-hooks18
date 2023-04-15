@@ -4,6 +4,7 @@ import UseReducer from './hooks/useReducer/UseReducer';
 import UseEffect from './hooks/useEffect/UseEffect';
 import PaletteContainer from './components/PaletteContainer';
 import './styles/app.css';
+import Hello from './components/Hello';
 
 const App = () => {
 	return (
@@ -12,6 +13,7 @@ const App = () => {
 			{/* <UseReducer /> */}
 			{/* <UseEffect /> */}
 			<PaletteContainer />
+			<Hello />
 		</div>
 	);
 };
